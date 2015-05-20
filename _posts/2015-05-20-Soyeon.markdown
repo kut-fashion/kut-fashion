@@ -7,7 +7,7 @@ categories:
 
 ## 오늘의 포스팅
 
--/*one >lol
+-one >lol
 >2.two
 >This is my **first** posting! 
 >
