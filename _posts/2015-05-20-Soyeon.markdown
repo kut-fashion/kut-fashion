@@ -7,8 +7,8 @@ categories:
 
 ## 오늘의 포스팅
 
-1.one
-2.two
+-/*one >lol
+>2.two
 >This is my **first** posting! 
 >
 >*손목*을 다쳤다. 아프다. 
