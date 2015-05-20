@@ -8,10 +8,12 @@ categories:
 ## 오늘의 포스팅
 
 * One 
+
 >This is my **first** posting! 
 
 
 - Two
+
 >*손목*을 다쳤다. 아프다. 
 >
 >>WIND-WIND
