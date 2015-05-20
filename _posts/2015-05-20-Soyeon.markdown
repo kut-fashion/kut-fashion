@@ -7,9 +7,9 @@ categories:
 
 ## 오늘의 포스팅
 
->-one 
+>* one 
 
->-two
+>- Two
 >
 >This is my **first** posting! 
 
