@@ -7,11 +7,12 @@ categories:
 
 ## 오늘의 포스팅
 
--one >lol
->2.two
+-one 
+-two
 >This is my **first** posting! 
 >
 >*손목*을 다쳤다. 아프다. 
+>>WIND-WIND
 >
 >[BLOG](https://kut-fashion.github.io/)
 >![blur](http://www.elisarusso.com/wp-content/uploads/2013/01/blur_bg_band.jpg)
