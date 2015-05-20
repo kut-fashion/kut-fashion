@@ -9,8 +9,9 @@ categories:
 
 >-one 
 >-two
->This is my **first** posting! 
 >
+>This is my **first** posting! 
+
 >*손목*을 다쳤다. 아프다. 
 >>WIND-WIND
 >
