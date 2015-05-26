@@ -1,37 +1,36 @@
-##The website title
-name: Blog Name
-##Markdown processor
-markdown: kramdown
-##syntax highlighter. change it to pygments
-highlighter: pygments
+# Site wide configuration
 
-##define base_url for valid usage in sitemap.xml and robots.txt
-base_url: http://example.com
+title:
+description:
+logo: # 120x120 px default image used for Twitter summary card
+teaser: # 400x250 px default teaser image used in image archive grid
+locale:
+url:
+
+# Jekyll configuration
+
 sass:
-  sass_dir: _sass
-  style: :compressed
-paginate: 5
-paginate_path: "page:num"
-##The website description (to be used in meta tags)
-description: Put website description for your home page. (about 50 words or more)
-##Some frequently used keywords on your website
-keywords: some, relevant, keywords, for, usage, in metatags
+    sass_dir: _sass
+    style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: pygments
+gems:
+  - jekyll-sitemap
 
-##define this for disqus comment support
-#disqus: forumname
 
-##set this to enable google analytics
-#ga_id: analyticsID
-#ga_domain: analyticsDomain
+# Site owner
+owner:
+  name:
+  email:
+  twitter:
+  google:
+    ad-client: 
+    ad-slot: 
+  bio: 
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+disqus-shortname:
 
-##Some commonly used links
-links:
-  facebook: username
-  twitter: username
-  email: username@gmail.com
-  github: username
 
-##put desired image in img/ directory and set the value accordingly. If not defined, a placeholder image will be used.
-about_image: placeholder.jpg
-##comment this if you want full width posts with no sidebar
-sidebar: on
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

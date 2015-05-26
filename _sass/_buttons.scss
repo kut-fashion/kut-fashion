@@ -1,43 +1,156 @@
-.button {
-  display : inline-block;
-  cursor : pointer;
-  
-  border-style : solid;
-  border-width : 1px;
-  padding : 2px;
-  box-shadow : 0 1px 2px rgba(0,0,0,.6);
-  font-size : 9pt;
-  font-weight : bold;
-  color : #fff;
-  text-shadow : 0 1px 3px rgba(0,0,0,.4);
-  font-family : sans-serif;
-  text-decoration : none;
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+/*
+   Default button .btn
+   ========================================================================== */
+
+.btn {
+	display: inline-block;
+	padding: 8px 20px;
+	@include font-size(14);
+	font-family: $alt-font;
+	background-color: $primary-color;
+	color: $white;
+	text-decoration: none;
+	border: 0 !important;
+	border-radius: 10 * $border-radius;
+	@include transition(background 0.2s, border 0.2s);
+	&:hover {
+		color: $white;
+		background-color: lighten($primary-color, 10);
+	}
+	&:active {
+		// move button slightly on click
+		@include transform(translateY(1px));
+	}
 }
 
-.button.blue {
-  border-color : #2989d8;
-  background: #2989d8;
-  background: -moz-linear-gradient(top, #2989d8 0%, #1e5799 100%);
-  background: -webkit-gradient(linear, left top, left bottom, 
-    color-stop(0%,#2989d8), color-stop(100%,#1e5799));
-  background: -webkit-linear-gradient(top, #2989d8 0%,#1e5799 100%);
-  background: -o-linear-gradient(top, #2989d8 0%,#1e5799 100%);
-  background: -ms-linear-gradient(top, #2989d8 0%,#1e5799 100%);
-  background: linear-gradient(top, #2989d8 0%,#1e5799 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( 
-    startColorstr='#2989d8', endColorstr='#1e5799',GradientType=0 );
+/*
+   Inverse button .btn-inverse
+   ========================================================================== */
+
+.btn-inverse {
+	@extend .btn;
+	background-color: $white;
+	color: $text-color;
+	&:visited,
+	&:active {
+		color: $text-color;
+	}
+	&:hover {
+		color: $white;
+		background-color: $text-color;
+	}
 }
 
-.button.green {
-  border-color: #8fc800;
-  background: #8fc800;
-  background: -moz-linear-gradient(top, #8fc800 0%, #438c00 100%);
-  background: -webkit-gradient(linear, left top, left bottom, 
-    color-stop(0%,#8fc800), color-stop(100%,#438c00));
-  background: -webkit-linear-gradient(top, #8fc800 0%,#438c00 100%);
-  background: -o-linear-gradient(top, #8fc800 0%,#438c00 100%);
-  background: -ms-linear-gradient(top, #8fc800 0%,#438c00 100%);
-  background: linear-gradient(top, #8fc800 0%,#438c00 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( 
-    startColorstr='#8fc800', endColorstr='#438c00',GradientType=0 );
+/*
+   Info button .btn-info
+   ========================================================================== */
+
+.btn-info {
+	@extend .btn;
+	background-color: $info-color;
+	color: $white;
+	&:visited {
+		color: $white;
+	}
+	&:hover {
+		background-color: lighten($info-color, 10);
+	}
+}
+
+/*
+   Warning button .btn-warning
+   ========================================================================== */
+
+.btn-warning {
+	@extend .btn;
+	background-color: $warning-color;
+	color: $white;
+	&:visited {
+		color: $white;
+	}
+	&:hover {
+		background-color: lighten($warning-color ,10);
+	}
+}
+
+/*
+   Success button .btn-success
+   ========================================================================== */
+
+.btn-success {
+	@extend .btn;
+	background-color: $success-color;
+	color: $white;
+	&:visited {
+		color: $white;
+	}
+	&:hover {
+		background-color:lighten($success-color, 10);
+	}
+}
+
+/*
+   Danger button .btn-danger
+   ========================================================================== */
+
+.btn-danger {
+	@extend .btn;
+	background-color: $danger-color;
+	color: $white;
+	&:visited {
+		color: $white;
+	}
+	&:hover {
+		background-color: lighten($danger-color, 10);
+	}
+}
+
+/*
+   Social media buttons
+   ========================================================================== */
+
+.btn-social {
+	$social:
+    (facebook, $facebook-color),
+		(flickr, $flickr-color),
+		(foursquare, $foursquare-color),
+		(google-plus, $google-plus-color),
+		(instagram, $instagram-color),
+		(linkedin, $linkedin-color),
+		(pinterest, $pinterest-color),
+		(rss, $rss-color),
+		(tumblr, $tumblr-color),
+		(twitter, $twitter-color),
+		(vimeo, $vimeo-color),
+		(youtube, $youtube-color);
+	@extend .btn-inverse;
+	color: $text-color !important;
+	&:visited,
+	&:active {
+		color: $text-color;
+	}
+	border: 1px solid $border-color !important;
+	@each $socialnetwork, $color in $social {
+		i.fa-#{$socialnetwork} {
+	    color: $color;
+    }
+	}
+	&:hover {
+		color: $white !important;
+	}
+	@each $socialnetwork, $color in $social {
+		&.#{$socialnetwork}:hover {
+	    background: $color;
+	    border-color: $color;
+	    @each $socialnetwork, $color in $social {
+				i.fa-#{$socialnetwork} {
+			    color: $white;
+		    }
+			}
+    }
+	}
 }
