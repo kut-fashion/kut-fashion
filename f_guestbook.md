@@ -6,6 +6,5 @@ permalink: /guestbook/
 ---
 
 방명록을 남겨주세요.
-## Hi, welcome to leave a message here.
 
 
