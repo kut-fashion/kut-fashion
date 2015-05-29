@@ -1,7 +1,7 @@
 ### Site info:
 title: 패션 블로그
-tagline: 한국기술교육대학교 - 2015년 1학기 컴퓨터시스템기초설계
-author: KOREATECH 시스템기초설계 3분반 1초
+tagline: 한국기술교육대학교- 2015년 1학기 컴퓨터시스템기초설계
+author: Lijia Yu
 email: yu@lijiayu.net
 description: "Freshman21 is a Jekyll blog theme." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "Jekyll, theme, Freshman21"
@@ -25,14 +25,14 @@ default_locale: "en" # blog sidebar language set, only include: English(en) and 
 
 locales:
     en:
-      Aboutme: "소개"
+      Aboutme: "About Me"
       Archives: "Archives"
-	 Blogroll: "Blogroll"
-	  Categories: "Categories"
-	  Copyright_Notice: "Copyright Notice"
+      Blogroll: "Blogroll"
+      Categories: "Categories"
+      Copyright_Notice: "Copyright Notice"
       Recent_Posts: "Recent Posts"
       Tags: "Tags"
-	 Previous: "Older"
+      Previous: "Older"
       Next: "Newer"
       PostedInCategories: "Posted in"
       Taggedwith: "and tagged"  
@@ -44,7 +44,7 @@ locales:
       Categories: "分类目录"    
       Copyright_Notice: "版权声明"
       Recent_Posts: "近期文章"
-	 #Tags: "标签" 
+      Tags: "标签" 
       Previous: "前一页"
       Next: "后一页"
       PostedInCategories: "目录:"   
