@@ -1,9 +1,9 @@
-----
--layout: page
--title: 소개
--comments: yes
--permalink: /about/
-----
+---
+layout: page
+title: 소개
+comments: yes
+permalink: /about/
+---
 
 패션 블로그
 ===================
