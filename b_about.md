@@ -18,6 +18,7 @@ permalink: /about/
 
 > ![2](https://lh6.googleusercontent.com/-qeLapQGl0ag/VWh4ZS8DRXI/AAAAAAAABAo/Or59qKtBr_c/w729-h547-no/3.jpg)
 * 조규원 (2011136150)
+
 * 박소연 (2014136051)
 
 > ![3](https://lh4.googleusercontent.com/-uNn-_MWB9BI/VWh4Y3ipmiI/AAAAAAAABAc/yTx7hnfvmXE/w972-h547-no/2.jpg)
