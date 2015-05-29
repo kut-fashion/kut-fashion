@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 분류
+title: 패션
 permalink: /categories/
 ---
 
