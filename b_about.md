@@ -1,29 +1,34 @@
----
-layout: page
-title: 소개
-comments: yes
-permalink: /about/
----
+패션 블로그
+===================
+
+[한국기술교육대학교](http://www.koreatech.ac.kr/ "한국기술교육대학교")
+2015년 1학기 컴퓨터시스템기초설계 블로그 
+
+팀원
+-------
+* 서현관 (2011136147)
+* 이동규 (2011136149)
+* 조규원 (2011136150)
+* 박소연 (2014136051)
+
+목표
+-------------
+개성 없이 획일화된 복장, 어울리지 않는 코디를 볼 수 있다. 이 블로그를 통해 충분히 바꿀 수 있습니다.
+
+![image](https://lh5.googleusercontent.com/-tI1OZGptvwk/VWhpakjdKJI/AAAAAAAABeE/pvYtyLGxuSk/w237-h315-no/K-2.png)
+
+기존의 패션 블로그와 다른점
+-------------------------------------
+기존의 패션 블로그는 외모가 뛰어난 사람들을 대상으로 한다. 반면에 우리는 평범한 **일반인을 대상**으로 한 블로그이다. 이를 통해 패션에 대한 벽을 허물고자 한다.
 
 
-### Freshman21 is a Jekyll theme. <test>
-
-테스트
-
-A tribute to Twenty Twelve and Twenty eleven.
-
-I like wordpress's theme Twenty Twelve and Twenty eleven very much. 
-So I called my Jekyll theme Freshman21 (Freshman <q>twenty-first</q> , it means twenty-first century, not twenty-one), this theme is based on my former theme [Freshman](https://github.com/yulijia/freshman/).
-
-Freshman21 have two main page format, one is [single column](http://yulijia.net/en/  "see demo"), the other is two columns. For more details, please see the articles on the site.
-
-<cite>Proudly enjoy using Freshman21 theme.</cite> <code>;)</code>
-
-<img title="麋鹿" src="https://i.imgur.com/Mdc4szJl.jpg" alt="麋鹿" width="580" height="668" />
-
-#### Hi, the picture you have seen in the sample-page is a Père David's deer photoed by my friend at Beijing Milu Park, China.
-
-Milu(麋鹿) is the chinese name of Père David's deer.
-
-
-
+기대효과
+-------------------
+1. 자신감 향상
+2. 이미지 변신
+ - 자신만의 개성을 찾을 수 있다.
+ - 전형적인 공대생의 이미지 탈피 
+3. 활용성
+ - 일반인에게 패션 정보를 제공함 (패션 상식, 데일리 룩 등등)
+ - 자신이 가지고 있는 옷을 활용할 수 있다. 
+4. 패션에 대한 진입장벽을 없앰
