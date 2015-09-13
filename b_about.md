@@ -6,7 +6,7 @@ permalink: /about/
 ---
 개발자
 ------
-* 이동규 (2011136149) ![2](https://lh6.googleusercontent.com/-qeLapQGl0ag/VWh4ZS8DRXI/AAAAAAAABAo/Or59qKtBr_c/w729-h547-no/3.jpg) 
+* 이동규 ![2](https://lh6.googleusercontent.com/-qeLapQGl0ag/VWh4ZS8DRXI/AAAAAAAABAo/Or59qKtBr_c/w729-h547-no/3.jpg) 
 <br/>
 
 목표
