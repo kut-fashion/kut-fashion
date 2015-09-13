@@ -4,18 +4,9 @@ title: 소개
 comments: yes
 permalink: /about/
 ---
-
-[한국기술교육대학교](http://www.koreatech.ac.kr/ "한국기술교육대학교")
-2015년 1학기 컴퓨터시스템기초설계 블로그 
-<br/>
-
-팀원
+개발자
 ------
-* 서현관 (2011136147) ![1](https://lh5.googleusercontent.com/--zHAtBZYidE/VWh4WIXd67I/AAAAAAAABAQ/apesMukUowk/w410-h547-no/1.jpg) 
 * 이동규 (2011136149) ![2](https://lh6.googleusercontent.com/-qeLapQGl0ag/VWh4ZS8DRXI/AAAAAAAABAo/Or59qKtBr_c/w729-h547-no/3.jpg) 
-* 조규원 (2011136150) ![4](https://lh5.googleusercontent.com/-Bv9RCoDhohU/VWh89_TaCII/AAAAAAAABA8/CRGVBw3tMH0/w308-h547-no/3.jpg) 
-* 박소연 (2014136051) ![3](https://lh4.googleusercontent.com/-uNn-_MWB9BI/VWh4Y3ipmiI/AAAAAAAABAc/yTx7hnfvmXE/w972-h547-no/2.jpg)
-
 <br/>
 
 목표
@@ -28,7 +19,7 @@ permalink: /about/
 
 기존의 패션 블로그와 다른점
 -------------------------------------
-기존의 패션 블로그는 외모가 뛰어난 사람들을 대상으로 한다. 반면에 우리는 평범한 **일반인을 대상**으로 한 블로그이다. 이를 통해 패션에 대한 벽을 허물고자 한다.
+대다수의 패션 블로그는 외모나 비싼 브랜드로 구성되어 있다. 반면에 이 블로그는 평범한 **학교 학생을 대상**으로 한 블로그이다. 이를 통해 패션에 대한 벽을 허물고자 한다.
 
 <br/>
 
